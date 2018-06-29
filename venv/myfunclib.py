@@ -1,7 +1,7 @@
 import chardet
 import json
 import xml.etree.ElementTree as ET
-import os
+#import os
 
 def input_text_data(str_file_name):
     with open(str_file_name, 'rb') as f:
